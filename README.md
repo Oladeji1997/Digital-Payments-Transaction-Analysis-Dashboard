@@ -20,9 +20,6 @@ This project analyzes digital payment transactions to identify trends in transac
 - P2P transactions dominate overall transaction volume
 - Certain network types show higher transaction failure rates
 
-## 📈 Dashboard Preview
-(Add your screenshots here)
-
 ## 📁 Files Included
 - Power BI Dashboard (.pbix)
 - Exported Dashboard (.pdf)
