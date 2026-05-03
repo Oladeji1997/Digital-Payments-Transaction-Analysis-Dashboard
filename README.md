@@ -42,12 +42,11 @@ The dashboard provides an interactive view of transaction performance, user beha
 <img width="631" height="377" alt="Capture23" src="https://github.com/user-attachments/assets/eb674805-a474-4919-83d0-d109edfbc6d0" />
 
 ## 📐 DAX Measures Used
-
 The following DAX measures were created in Power BI to support KPI tracking and financial analysis.
-
 ### Total Transactions
-```DAX
-Total Transactions = COUNT('Transactions'[transaction_id])
+Total Transactions = COUNT('upi_transactionS_2024'[transaction_id])
+Total Transactions Volume = SUM('upi_transactionS_2024'[amount(INR)])
+Average Transactions Volume = AVG('upi_transactionS_2024'[amount(INR)])
 
 ## 📁 Files Included
 - Power BI Dashboard (.pbix)
