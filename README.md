@@ -3,6 +3,16 @@
 ## 📌 Objective
 Analyze digital payment transactions to uncover trends in customer behavior, transaction performance, and operational efficiency, with a focus on supporting financial reporting and data-driven decision-making.
 
+## 🧹 Data Preparation
+Data preprocessing was performed using Google Colab to ensure clean, structured, and analysis-ready data before visualization in Power BI.
+- Loaded raw dataset into Google Colab for preprocessing and exploration  
+- Handled missing values and removed duplicate transaction records  
+- Standardized categorical variables (transaction type, status, device type, network type)  
+- Converted timestamp into structured time-based features (hour, day of week, weekend indicator)  
+- Created customer segmentation fields such as age groups  
+- Engineered additional analytical fields including fraud flag indicators and performance metrics  
+- Exported cleaned dataset for use in Power BI dashboard development
+
 ## 🛠 Tools Used
 - Power BI
 - SQL
@@ -30,6 +40,14 @@ Analyze digital payment transactions to uncover trends in customer behavior, tra
 ## 📈 Dashboard Preview
 The dashboard provides an interactive view of transaction performance, user behavior, and operational trends across multiple dimensions.
 <img width="631" height="377" alt="Capture23" src="https://github.com/user-attachments/assets/eb674805-a474-4919-83d0-d109edfbc6d0" />
+
+## 📐 DAX Measures Used
+
+The following DAX measures were created in Power BI to support KPI tracking and financial analysis.
+
+### Total Transactions
+```DAX
+Total Transactions = COUNT('Transactions'[transaction_id])
 
 ## 📁 Files Included
 - Power BI Dashboard (.pbix)
