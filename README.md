@@ -4,7 +4,7 @@
 Analyze digital payment transactions to uncover trends in customer behavior, transaction performance, and operational efficiency, with a focus on supporting financial reporting and data-driven decision-making.
 
 ## 🧹 Data Preparation
-Data preprocessing was performed using Google Colab to ensure clean, structured, and analysis-ready data before visualization in Power BI.
+Data preprocessing was performed using Google Colab to ensure clean, structured, and analysis-ready data before writing queries and visualization in Power BI.
 - Loaded raw dataset into Google Colab for preprocessing and exploration  
 - Handled missing values and removed duplicate transaction records  
 - Standardized categorical variables (transaction type, status, device type, network type)  
@@ -14,6 +14,7 @@ Data preprocessing was performed using Google Colab to ensure clean, structured,
 - Exported cleaned dataset for use in Power BI dashboard development
 
 ## 🛠 Tools Used
+- Google Colab
 - Power BI
 - SQL
 - Excel
@@ -48,9 +49,19 @@ Total Transactions = COUNT('upi_transactionS_2024'[transaction_id])
 Total Transactions Volume = SUM('upi_transactionS_2024'[amount(INR)])
 Average Transactions Volume = AVG('upi_transactionS_2024'[amount(INR)])
 
+## 🛠 SQL Analysis Performed
+SQL was used to analyze transaction-level data stored in SQL Server. The analysis focused on:
+- Total transaction volume and value aggregation
+- Fraud detection analysis using fraud_flag segmentation
+- Customer behavior analysis by device and network type
+- Time-based analysis (hour of day, weekend vs weekday trends)
+- Performance KPIs using GROUP BY and aggregate functions
+
 ## 📁 Files Included
 - Power BI Dashboard (.pbix)
 - Exported Dashboard (.pdf)
+- SQL file
+- Cleaned dataset (.ipynb)
 - Dataset (.csv)
 
 ## 💡 Business Impact
