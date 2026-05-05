@@ -6,14 +6,14 @@ This project analyzes 250,000+ digital payment transactions to identify fraud pa
 Analyze digital payment transactions to uncover trends in customer behavior, transaction performance, and operational efficiency, with a focus on supporting financial reporting and data-driven decision-making.
 
 ## 🧹 Data Preparation
-Data preprocessing was performed using Google Colab to ensure clean, structured, and analysis-ready data before writing queries and visualization in Power BI.
-- Loaded raw dataset into Google Colab for preprocessing and exploration  
-- Handled missing values and removed duplicate transaction records  
-- Standardized categorical variables (transaction type, status, device type, network type)  
-- Converted timestamp into structured time-based features (hour, day of week, weekend indicator)  
-- Created customer segmentation fields such as age groups  
-- Engineered additional analytical fields including fraud flag indicators and performance metrics  
-- Exported cleaned dataset for use in Power BI dashboard development
+- Data preprocessing was performed using Google Colab to ensure clean, structured, and analysis-ready data before writing queries and visualization in Power BI.
+- Loaded raw dataset into Google Colab for preprocessing and exploration. 
+- Handled missing values and removed duplicate transaction records.  
+- Standardized categorical variables (transaction type, status, device type, network type). 
+- Converted timestamp into structured time-based features (hour, day of week, weekend indicator).  
+- Created customer segmentation fields such as age groups.  
+- Engineered additional analytical fields including fraud flag indicators and performance metrics.  
+- Exported cleaned dataset for use in Power BI dashboard development.
 
 ## 🛠 Tools Used
 - Google Colab
@@ -35,10 +35,11 @@ Data preprocessing was performed using Google Colab to ensure clean, structured,
 - Operational efficiency and anomaly detection
 
 ## 🔍 Key Insights
-- Mobile (Android) users aged 26–45 generate the highest transaction value, indicating strong adoption among core earning demographics
-- Transaction activity peaks between 12 PM and 8 PM, aligning with business and post-work hours
-- Peer-to-Peer (P2P) transactions dominate overall volume, highlighting primary usage patterns
-- Variations in network type reveal differences in transaction success rates, indicating potential performance or infrastructure gaps
+- Mobile (Android) users aged 26–45 generate the highest transaction value, indicating strong adoption among core earning demographics.
+- Transaction activity peaks between 12 PM and 8 PM, aligning with business and post-work hours.
+- Peer-to-Peer (P2P) transactions dominate overall volume, highlighting primary usage patterns.
+- Fraud activity shows higher occurrence during off-peak hours, indicating potential anomaly patterns during low monitoring periods.
+- Variations in network type reveal differences in transaction success rates, indicating potential performance or infrastructure gaps.
 
 ## 📈 Dashboard Preview
 The dashboard provides an interactive view of transaction performance, user behavior, and operational trends across multiple dimensions.
