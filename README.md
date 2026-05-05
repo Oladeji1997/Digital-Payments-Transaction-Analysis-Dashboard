@@ -1,5 +1,5 @@
 # Digital Payments Transaction Analysis Dashboard
-## 🚀 Project Overview (1-minute summary)
+## 🚀 Project Overview
 This project analyzes 250,000+ digital payment transactions to identify fraud patterns, customer behavior trends, and operational performance using SQL, Power BI, and data preprocessing in Python.
 
 ## 📌 Objective
