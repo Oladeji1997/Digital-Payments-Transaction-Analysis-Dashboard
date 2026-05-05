@@ -48,8 +48,8 @@ The dashboard provides an interactive view of transaction performance, user beha
 The following DAX measures were created in Power BI to support KPI tracking and financial analysis.
 ### Total Transactions
 Total Transactions = COUNT('upi_transactionS_2024'[transaction_id])
-Total Transactions Volume = SUM('upi_transactionS_2024'[amount(INR)])
-Average Transactions Volume = AVG('upi_transactionS_2024'[amount(INR)])
+Total Transaction Value = SUM('upi_transactionS_2024'[amount])
+Average Transaction Value = AVERAGE('upi_transactionS_2024'[amount])
 
 ## 🛠 SQL Analysis Performed
 SQL was used to analyze transaction-level data stored in SQL Server. The analysis focused on:
@@ -62,9 +62,9 @@ SQL was used to analyze transaction-level data stored in SQL Server. The analysi
 ## 📁 Files Included
 - Power BI Dashboard (.pbix)
 - Exported Dashboard (.pdf)
-- SQL file
-- Cleaned dataset (.ipynb)
-- Dataset (.csv)
+- SQL File
+- Data Preprocessing Notebook (.ipynb)
+- Cleaned Dataset (.csv)
 
 ## 💡 Business Impact
 This dashboard simulates real-world financial transaction monitoring and reporting used in banking and payment operations. It enables stakeholders to identify trends, monitor performance, detect inefficiencies, and make data-driven decisions to improve operational efficiency, reduce transaction failures, and enhance revenue outcomes.
